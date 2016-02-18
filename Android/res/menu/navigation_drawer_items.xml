@@ -14,11 +14,14 @@
             android:icon="@drawable/ic_menu_editor_grey600_24dp"
             android:title="@string/editor" />
 
-        <item
-            android:id="@+id/navigation_locator"
-            android:icon="@drawable/ic_menu_flight_history_grey600_24dp"
-            android:title="@string/locator" />
+        <!--HB 10/2/16
+                //Get rid of flight history
 
+                <item
+                    android:id="@+id/navigation_locator"
+                    android:icon="@drawable/ic_menu_flight_history_grey600_24dp"
+                    android:title="@string/locator" />
+                -->
     </group>
 
     <group
@@ -29,10 +32,13 @@
             android:icon="@drawable/ic_menu_parameters_grey600_24dp"
             android:title="@string/screen_parameters" />
 
-        <item
-            android:id="@+id/navigation_checklist"
-            android:icon="@drawable/ic_menu_checklist_grey600_24dp"
-            android:title="@string/screen_checklist" />
+        <!--HB 10/2/16
+            Get rid of checklist
+                  <item
+                      android:id="@+id/navigation_checklist"
+                      android:icon="@drawable/ic_menu_checklist_grey600_24dp"
+                      android:title="@string/screen_checklist" />
+          -->
 
         <item
             android:id="@+id/navigation_calibration"

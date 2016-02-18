@@ -75,7 +75,7 @@ public class GraphicGuided extends MarkerInfo.SimpleMarkerInfo implements PathSo
 
 	@Override
 	public Bitmap getIcon(Resources res) {
-		return MarkerWithText.getMarkerWithTextAndDetail(R.drawable.ic_wp_map, "Guided", "", res);
+		return MarkerWithText.getMarkerWithTextAndDetail(R.drawable.ic_wp_map, "Fly", "", res); //HB 10/2/16 replaced: "Guided"
 	}
 
 	@Override

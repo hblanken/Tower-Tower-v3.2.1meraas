@@ -7,15 +7,15 @@
     <string name="label_other">Others</string>
     <string name="menu_drone_setup">Drone Setup</string>
     <string name="app_settings">App Settings</string>
-    <string name="flight_data">Flight Data</string>
-    <string name="editor">Editor</string>
+    <string name="flight_data">Live Flight View</string>
+    <string name="editor">Mission Editor</string>
     <string name="upload_mission">Upload mission</string>
     <string name="download_mission">Download mission</string>
 
     <!-- Drone Setup tabs -->
     <string name="screen_cal">Calibration</string>
     <string name="screen_checklist">Checklist</string>
-    <string name="screen_parameters">Parameters</string>
+    <string name="screen_parameters">UAV Parameters</string>
 
     <!-- App Settings/Preferences -->
     <string name="pref_connection_type">Telemetry Connection Type</string>
@@ -59,7 +59,7 @@
     <string name="drone_no_location">No drone location available</string>
 
     <!-- Connection State -->
-    <string name="menu_connect">Connect</string>
+    <string name="menu_connect">Connect to Vehicle</string>
     <string name="menu_disconnect">Disconnect</string>
     <string name="connected">Connected</string>
     <string name="disconnected">Disconnected</string>
@@ -119,6 +119,7 @@
     <string name="waypointType_Circle">Circle</string>
     <string name="waypointType_Loiter">Loiter</string>
     <string name="waypointType_ROI">Region of Interest</string>
+    <string name="waypointType_ResetROI">Reset ROI</string>
     <string name="waypointType_Survey">Survey</string>
     <string name="waypointType_Spline_Survey">Spline Survey</string>
     <string name="waypointType_BuildingMapper">Structure Scan</string>
@@ -259,7 +260,7 @@
     <string name="air_speed_label">Air Speed</string>
     <string name="default_angle_value">--°</string>
     <string name="mission_control_home">Home</string>
-    <string name="mission_control_arm">Arm</string>
+    <string name="mission_control_arm">Start</string> <!--HB Edited 11-2-16 from 'ARM'-->
     <string name="mission_control_disarm">Disarm</string>
     <string name="mission_control_land">Land</string>
     <string name="mission_control_takeoff">Takeoff</string>
@@ -387,7 +388,7 @@
     <string name="unit_system_entry_imperial">Imperial System</string>
     <string name="pref_unit_system_title">Unit System</string>
     <string name="pref_unit_system_summary">Select the unit system to use throughout the app.</string>
-    <string name="account_label">Account</string>
+    <string name="account_label">Meraas Aerial Entertainment. Enabled by Pylot.</string>
     <string name="label_sign_up">Sign Up</string>
     <string name="label_login">Login</string>
     <string name="label_logout">Logout</string>
@@ -473,6 +474,8 @@
     <!-- Telemetry widget labels -->
     <string name="label_widget_solo_video">Solo Video</string>
     <string name="description_widget_solo_video">Displays the video stream from a connected Solo vehicle</string>
+    <string name="label_widget_uvc_video">UVC Video</string>
+    <string name="description_widget_uvc_video">Displays the video stream from a connected UVC device</string>
     <string name="label_widget_attitude_speed_info">Speed &amp; Attitude Info</string>
     <string name="description_widget_attitude_speed_info">Displays vehicle speed and attitude data</string>
     <string name="label_widget_vehicle_diagnostics">Diagnostics</string>
@@ -481,6 +484,7 @@
     <string name="pref_tower_widgets_category">Tower Widgets</string>
     <string name="pref_widgets_list_category">Widgets list</string>
     <string name="label_widget_flight_timer">Flight Timer</string>
+    <string name="description_reset_flight_timer">Reset flight timer?</string>
     <string name="description_widget_flight_timer">Displays the vehicle flight time</string>
     <string name="label_widget_geo_info">Geo Info</string>
     <string name="description_widget_geo_info">Displays vehicle geographical information (Lat/Long)</string>
@@ -575,6 +579,12 @@
     <string name="period_30_sec">30 sec.</string>
     <string name="period_45_sec">45 sec.</string>
     <string name="period_60_sec">60 sec.</string>
+    <string name="waypoint_description_reset_roi">Reset the current region of interest lock.</string>
+
+    <string name="uvc_device_select">Select UVC device</string>
+    <string name="uvc_device">Device</string>
+    <string name="uvc_device_refresh">Refresh</string>
+    <string name="uvc_device_no_device">No UVC device found</string>
 
 
 </resources>

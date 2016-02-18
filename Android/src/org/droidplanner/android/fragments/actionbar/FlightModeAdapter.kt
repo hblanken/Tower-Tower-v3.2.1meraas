@@ -31,6 +31,17 @@ public class FlightModeAdapter(context: Context, val drone: Drone) : SelectionLi
 
         val type: Type = drone.getAttribute(AttributeType.TYPE);
         flightModes = VehicleMode.getVehicleModePerDroneType(type.droneType)
+        // HB 10/2/16
+        // Remove all the unneeded flight modes
+        flightModes.remove(VehicleMode.COPTER_ACRO)
+        flightModes.remove(VehicleMode.COPTER_ALT_HOLD)
+        flightModes.remove(VehicleMode.COPTER_STABILIZE)
+        flightModes.remove(VehicleMode.COPTER_CIRCLE)
+        flightModes.remove(VehicleMode.COPTER_DRIFT)
+        flightModes.remove(VehicleMode.COPTER_SPORT)
+        flightModes.remove(VehicleMode.COPTER_FLIP)
+        flightModes.remove(VehicleMode.COPTER_AUTOTUNE)
+        flightModes.remove(VehicleMode.COPTER_BRAKE)
     }
 
     override fun getCount() = flightModes.size()

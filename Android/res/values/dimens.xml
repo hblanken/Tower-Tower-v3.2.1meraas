@@ -5,7 +5,7 @@
 
     <!-- Dimension for the flight control buttons -->
     <dimen name="flightControlPadding">5dp</dimen>
-    <dimen name="flightControlTextSize">10sp</dimen>
+    <dimen name="flightControlTextSize">14sp</dimen>
     <dimen name="flight_action_width">60dp</dimen>
     <dimen name="flight_action_height">60dp</dimen>
     <!-- Dimension for the editor buttons -->
@@ -52,4 +52,10 @@
     <dimen name="action_bar_telem_height">96dp</dimen>
     <dimen name="action_drawer_width">260dp</dimen>
     <dimen name="action_drawer_margin_bottom">80dp</dimen>
+
+    <dimen name="dialog_uvc_horizontal_margin">16dp</dimen>
+    <dimen name="dialog_uvc_vertical_margin">16dp</dimen>
+    <dimen name="dialog_uvc_button_size">48dp</dimen>
+    <dimen name="list_item_uvc_font_size">18sp</dimen>
+    <dimen name="list_item_uvc_height_min">32dp</dimen>
 </resources>

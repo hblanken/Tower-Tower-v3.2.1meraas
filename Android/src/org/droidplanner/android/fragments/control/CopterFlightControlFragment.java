@@ -338,13 +338,13 @@ public class CopterFlightControlFragment extends BaseFlightControlFragment imple
     }
 
     private void getArmingConfirmation() {
-        SlideToUnlockDialog unlockDialog = SlideToUnlockDialog.newInstance("arm", new Runnable() {
+        SlideToUnlockDialog unlockDialog = SlideToUnlockDialog.newInstance("start engines", new Runnable() {
             @Override
-            public void run() {
+            public void run() { //HB 11-2-16 edited instead of 'arm'
                 getDrone().arm(true);
             }
         });
-        unlockDialog.show(getChildFragmentManager(), "Slide To Arm");
+        unlockDialog.show(getChildFragmentManager(), "Slide to start engines"); //HB 11-2-16 edited instead of 'to arm'
     }
 
     private void updateFlightModeButtons() {

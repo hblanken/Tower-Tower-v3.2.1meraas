@@ -126,20 +126,20 @@ android {
         debug {
             applicationIdSuffix ".debug"
             versionNameSuffix ".debug.${versionBuild}"
-            resValue "string", "app_title", "Tower Dev"
+            resValue "string", "app_title", "Meraas Dev"
         }
 
         beta {
             signingConfig signingConfigs.release
             applicationIdSuffix ".beta"
             versionNameSuffix ".beta.${versionBuild}"
-            resValue "string", "app_title", "Tower Beta"
+            resValue "string", "app_title", "Meraas Beta"
             buildConfigField "boolean", "ENABLE_CRASHLYTICS", "true"
         }
 
         release {
             signingConfig signingConfigs.release
-            resValue "string", "app_title", "Tower"
+            resValue "string", "app_title", "Meraas"
             buildConfigField "boolean", "WRITE_LOG_FILE", "false"
             buildConfigField "boolean", "ENABLE_CRASHLYTICS", "true"
         }
